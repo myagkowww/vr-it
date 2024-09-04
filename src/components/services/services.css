@@ -1,0 +1,61 @@
+/* src/components/services/Services.css */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.service {
+    width: 339px;
+    height: 339px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 32px 6px rgba(54, 76, 166, 0.55);
+    background: radial-gradient(circle, rgba(92, 195, 253, 0.24) 2%, #000000 90%);
+    transition: box-shadow 0.5s ease, transform 0.5s ease;
+}
+.service:hover, .service:focus{
+    box-shadow: 0px 0px 32px 6px rgba(92, 195, 253, 0.58);
+    transform: scale(1.1);
+}
+.card-logo-corp{
+    font-family: 'Tactic Sans Extended', serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 35px;
+}
+.service-name{
+    font-family: 'Tactic Sans Extended', serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 85px;
+    width: 70%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.card-order{
+    width: 85%;
+    cursor: pointer;
+    background: linear-gradient(to right, #5CC3FD, #364CA6);
+    background-size: 110% 60%;
+    transition: background-position 1s ease;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    font-size: 14px;
+    font-family: 'Gilroy-SemiBold';
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 5px;
+}
+.card-order:hover, .card-order:focus{
+    background-position: -1000% 0;
+}
+.hashtag{
+    font-family: 'Tactic Sans Extended Light Italic';
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}

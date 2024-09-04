@@ -1,0 +1,73 @@
+.about-company{
+    margin-top: 150px;
+}
+.mission{
+    display: flex;
+    /*justify-content: space-between;*/
+}
+.our-and-row > span, .purpose-title > span{
+    width: 153px;
+    height: 1px;
+    background-color: #fff;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+.row-title{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 24px;
+    width: auto;
+    margin-right: 20px;
+}
+.row-title > div{
+    margin-bottom: 5px;
+}
+.our-and-row{
+    display: flex;
+}
+.row-text{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 22px;
+    width: 42%;
+    line-height: 1.5;
+}
+.mission > img{
+    width: 403px;
+}
+.purpose{
+    display: flex;
+    margin-top: 95px;
+}
+.purpose > img{
+    width: 443px;
+}
+.purpose-title-text{
+    margin-left: 50px;
+}
+.purpose-title{
+    display: flex;
+    font-size: 24px;
+    font-family: 'Gilroy-SemiBold';
+}
+.purpose-text{
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 22px;
+    font-family: 'Gilroy-SemiBold';
+}
+.mind{
+    display: flex;
+    margin-top: 90px;
+}
+.mind-text{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 22px;
+    line-height: 1.5;
+}
+.mind-text > p{
+    margin-bottom: 30px;
+}
+.morion-bg{
+    width: 100%;
+    margin-bottom: 40px;
+}

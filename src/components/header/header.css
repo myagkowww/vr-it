@@ -1,0 +1,198 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 50%; /* Центрирование относительно окна */
+    transform: translateX(-50%); /* Сдвиг на половину ширины для точного центрирования */
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 1110px;
+    background-color: rgba(0, 0, 0, 0.58);
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.left-part-header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    font-size: 23px;
+    position: relative;
+}
+
+.logo-mini {
+    font-family: 'Tactic Sans Extended';
+    display: flex;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.header-link {
+    font-family: 'Gilroy-SemiBold';
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    position: relative;
+}
+
+.open-icon {
+    cursor: pointer;
+    width: 47px;
+    background-image: url('../../../public/Pictures/burger.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon-and-button{
+    display: flex;
+}
+.order-btn-menu{
+    outline: unset;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(to right, #5CC3FD, #364CA6);
+    margin-right: 60px;
+    font-size: 15px;
+    padding: 15px 43px;
+    border-radius: 10px;
+}
+.close-icon {
+    cursor: pointer;
+    width: 47px;
+    height: 47px;
+    background-image: url('../../../public/Pictures/burger-close.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: auto;
+}
+
+.burger > span {
+    width: 45px;
+    height: 2px;
+    background-color: white;
+    display: block;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.header-arrow {
+    width: 17px;
+    height: 7px;
+    background-image: url('../../../public/Pictures/Arrow.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+    transform: rotate(-90deg);
+}
+
+.header-arrow.rotated {
+    transform: rotate(0deg); /* В исходное положение (0 градусов) */
+}
+
+/* Новый стиль для модального окна с анимацией */
+.services-modal {
+    position: absolute;
+    top: 115%; /* Расположить под пунктом "УСЛУГИ" */
+    left: 0;
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 100;
+    white-space: nowrap;
+    opacity: 0; /* Начальное значение прозрачности */
+    transform: translateY(-10px); /* Смещение вверх */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Плавный переход */
+    box-shadow: 0px 0px 12px 6px rgba(40, 68, 143, 0.73);
+}
+
+.services-modal p {
+    margin-bottom: 8px;
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Gilroy-Regular';
+}
+.header-link:hover .services-modal,
+.header-link .services-modal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+.open-menu {
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: top 0.4s ease;
+    z-index: 2000;
+}
+.menu{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.open-menu.active {
+    top: 0;
+}
+.head-menu{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding-bottom: 35px;
+}
+.body-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.meni-left, .menu-right{
+    width: 40%;
+}
+.menu-item{
+    display: flex;
+    font-family: 'Gilroy-Regular';
+    font-size: 28px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.menu-number{
+    background: linear-gradient(to right, #5CC3FD, #364CA6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Gilroy-Regular';
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.serv-list, .prod-list{
+    margin-top: 20px;
+}
+.serv-list > li, .prod-list > li{
+    list-style-type: none;
+    font-family: 'Gilroy-Regular';
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.social-links{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.social-links > img{
+    cursor: pointer;
+}
+.no-scroll {
+    overflow: hidden;
+}
+.no-scroll {
+    overflow: hidden;
+}

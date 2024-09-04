@@ -1,0 +1,43 @@
+.advantages-block{
+    margin-top: 150px;
+}
+.advantage{
+    margin-bottom: 75px;
+
+}
+.adv-head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding-bottom: 50px;
+}
+.adv-name{
+    font-family: Gilroy-SemiBold;
+    font-size: 32px;
+    color: #5CC3FD;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 80%;
+}
+.adv-btn{
+    width: 56px; /* Фиксированная ширина */
+    height: 56px; /* Фиксированная высота */
+    border: 1px solid white;
+    font-size: 20px;
+    text-align: center; /* Центрирование текста по горизонтали */
+    line-height: 24px; /* Центрирование текста по вертикали */
+    border-radius: 10px;
+    margin: auto; /* Центрирование блока по вертикали */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adv-text{
+    font-size: 26px;
+    font-family: Gilroy-Regular;
+    width: 84%;
+    margin-top: 48px;
+
+}

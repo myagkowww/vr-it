@@ -1,0 +1,84 @@
+.cases-block{
+    margin-top: 150px;
+}
+.case-link{
+    margin-bottom: 85px;
+}
+.case {
+    position: relative; /* Родительский блок должен иметь относительное позиционирование */
+    width: 100%;
+    height: 560px;
+    box-shadow: 0 0 45px 0 rgba(54, 76, 166, 0.5);
+    padding-top: 40px;
+    background: radial-gradient(circle, rgba(92, 195, 253, 0.4) 10%, #000000 110%);
+    border-radius: 20px;
+}
+.vr-in-case{
+    font-family: 'Tactic Sans Extended';
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 130px;
+}
+
+.case-title{
+    font-family: 'Tactic Sans Extended';
+    font-size: 45px;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.case-text{
+    font-family: 'Gilroy-Regular';
+    font-size: 20px;
+}
+.hashtag-case {
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 40px; /* Отступ от нижнего края */
+    left: 50%; /* Центрирование по горизонтали */
+    transform: translateX(-50%); /* Центрирование по горизонтали */
+    font-family: 'Tactic Sans Extended Light Italic';
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    text-align: center;
+    width: 100%; /* Убедитесь, что текст центрируется относительно блока */
+}
+.link-and-description{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.link{
+    display: flex;
+}
+.link-nda{
+    width: 31%;
+}
+.link-and-button{
+    display: flex;
+    cursor: pointer;
+}
+.link-name{
+    color: #5CC3FD;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 20px;
+}
+.link-btn{
+    font-weight: 900;
+    height: auto;
+    width: 25px;
+    background-color: #5CC3FD;
+    margin-left: 15px;
+    text-align: center;
+    color: black;
+    border-radius: 50%;
+    padding-top: 2px;
+    cursor: pointer;
+}
+.case-ps{
+    font-family: 'Gilroy-Regular';
+}
+.description{
+    font-family: 'Gilroy-Regular';
+    font-size: 20px;
+}

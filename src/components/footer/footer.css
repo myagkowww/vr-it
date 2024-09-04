@@ -1,0 +1,14 @@
+.footer{
+    margin-top: 88px;
+    display: flex;
+    justify-content: space-between;
+}
+.column-title{
+    font-size: 30px;
+    color: #5CC3FD;
+    font-family: Gilroy-SemiBold;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+}

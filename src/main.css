@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.block-title {
+    font-family: 'Tactic Sans Extended', serif;
+    font-size: 70px;
+    margin-bottom: 90px;
+}
+@font-face {
+    /*БОЛЬШОЙ НАКЛОННЫЙ*/
+    font-family: 'Tactic Sans Extended';
+    src: url('../public/fonts/Tactic-Sans-Extended/TacticSansExd-BlkIt.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    /*ТОНКИЙ НАКЛОННЫЙ*/
+    font-family: 'Tactic Sans Extended Light Italic';
+    src: url('../public/fonts/Tactic-Sans-Extended/TacticSansExd-LgtIt.ttf');
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('../public/fonts/Gilroy/Gilroy-Regular.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('../public/fonts/Gilroy/Gilroy-SemiBold.ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+}
+.App{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}

@@ -1,0 +1,30 @@
+.contacts-block{
+    margin-top: 150px;
+
+}
+.contacts{
+    display: flex;
+}
+.left-part-contacts{
+    font-family: 'Gilroy-SemiBold';
+    font-weight: 900;
+    width: 45%;
+}
+.right-part-contacts{
+    width: 55%;
+}
+
+.contacts-company-name{
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+.contact-point{
+    font-size: 28px;
+    font-family: 'Gilroy-SemiBold';
+    margin-top: 30px;
+    cursor: pointer;
+}
+.vk-link{
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
