@@ -8,7 +8,7 @@ const Contacts = () => {
             <div className="contacts">
                 <div className="left-part-contacts">
                     <h3 className="contacts-company-name">
-                        <b>ООО </b><b style={{color: "#5CC3FD"}}>"ВЕБ РАЗРАБОТКА"</b>
+                        <b>ООО </b><b style={{color: "#5CC3FD"}}>"ВР"</b>
                     </h3>
                     <p className="contact-point">Почта: <b style={{color: "#5CC3FD"}}>vr-it.info@yandex.ru</b></p>
                     <p className="contact-point">Телефон: <b style={{color: "#5CC3FD"}}>+7 (995) 668-35-84</b></p>

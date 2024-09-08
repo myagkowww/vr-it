@@ -9,6 +9,7 @@ import Contacts from "../components/contacts/Contacts";
 import Footer from "../components/footer/Footer";
 import Vacancies from "../components/vacancies/Vacancies";
 import Advantages from "../components/advantages/Advantages";
+import Copyright from "../components/copyright/Copyright";
 const MainPage = () => {
     return(
         <>
@@ -22,6 +23,7 @@ const MainPage = () => {
             <Questions/>
             <Contacts/>
             <Footer/>
+            <Copyright/>
         </>
         )
 }

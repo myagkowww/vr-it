@@ -1,0 +1,14 @@
+.office-photo-block{
+    margin-top: 150px;
+}
+.office-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Добавляет расстояние между фотографиями */
+}
+
+.office-photos img {
+    object-fit: cover;
+    border-radius: 8px; /* К примеру, можно сделать углы скругленными */
+}

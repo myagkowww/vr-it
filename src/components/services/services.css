@@ -1,4 +1,7 @@
 /* src/components/services/Services.css */
+.service-block{
+    margin-top: 150px;
+}
 .services {
     display: flex;
     flex-wrap: wrap;

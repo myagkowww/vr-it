@@ -1,0 +1,32 @@
+.residents-block{
+    margin-top: 100px;
+    text-align: center;
+}
+.title-residents{
+    font-family: 'Gilroy-Black';
+    font-size: 50px;
+    width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.res-description{
+    font-family: 'Gilroy-SemiBold';
+    font-size: 30px;
+    margin-top: 40px;
+}
+.res-btn{
+    font-family: Gilroy-SemiBold;
+    font-size: 30px;
+    width: 70%;
+    border-radius: 10px;
+    padding: 25px;
+    color: white;
+    background: linear-gradient(to right, #5CC3FD, #364CA6);
+    background-size: 110% 60%;
+    transition: background-position 1s ease;
+    border: none;
+    margin-top: 40px;
+}
+.res-btn:hover, .res-btn:focus{
+    background-position: -1010% 0;
+}

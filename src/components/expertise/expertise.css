@@ -1,0 +1,29 @@
+.expertise-block{
+    margin-top: 150px;
+}
+.exp-data{
+    display: flex;
+    justify-content: space-between;
+}
+.exp-block{
+    text-align: center;
+    width: 33.333%;
+}
+.borders{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+.block-num{
+    font-size: 90px;
+    font-family: 'Gilroy-Black';
+    background: linear-gradient(90deg, #5CC3FD 33%, #4A5EBC 66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.block-text{
+    font-family: 'Gilroy-Regular';
+    font-size: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}

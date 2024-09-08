@@ -2,13 +2,26 @@
     margin-top: 88px;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
 }
 .column-title{
-    font-size: 30px;
+    font-size: 32px;
     color: #5CC3FD;
     font-family: Gilroy-SemiBold;
+    margin-bottom: 25px;
+    cursor: pointer;
 }
 .icons{
     display: flex;
     gap: 30px;
+}
+.icons > img{
+    margin-bottom: auto;
+}
+.column-point{
+    font-family: Gilroy-Regular;
+    font-size: 20px;
+    margin-bottom: 20px;
+
 }

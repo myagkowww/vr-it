@@ -34,7 +34,10 @@
     font-weight: 900;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'Gilroy-Black';
+    src: url("../public/fonts/Gilroy/gilroy-black.ttf");
+}
 body{
     background-color: black;
 }

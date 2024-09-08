@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { Route, BrowserRouter as Router, Routes, Navigate } from "react-router-dom";
 import MainPage from "./pages/MainPage";
 import Avtovysota from "./pages/cases/Avtovysota";
@@ -9,6 +9,9 @@ import AboutCompany from "./pages/AboutCompany";
 import Header from "./components/header/Header";
 
 function App() {
+    useEffect(() => {
+        window.scroll(0, 0);
+    })
   return (
       <div className="App">
         <Router>
